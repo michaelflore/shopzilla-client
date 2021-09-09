@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should give error on invalid form 1`] = `
+<div
+  className="container is-fullhd"
+>
+  <div
+    className="columns is-centered mb-0 py-6"
+  >
+    <div
+      className="column is-half"
+    >
+      <div
+        className="py-3"
+      >
+        <Link
+          to="/"
+        >
+          Back to ShopZilla
+        </Link>
+      </div>
+      <h2
+        className="title is-3"
+      >
+        Sign Up
+      </h2>
+      <form
+        className="box"
+      >
+        <div
+          className="field"
+        >
+          <label
+            className="label"
+            htmlFor="full-name"
+          >
+            Full Name:
+          </label>
+          <div
+            className="control"
+          >
+            <input
+              className="input"
+              id="full-name"
+              name="fullName"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="field"
+        >
+          <label
+            className="label"
+            htmlFor="email"
+          >
+            Email:
+          </label>
+          <div
+            className="control"
+          >
+            <input
+              className="input"
+              id="email"
+              name="email"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="field"
+        >
+          <label
+            className="label"
+            htmlFor="password"
+          >
+            Password:
+          </label>
+          <div
+            className="control"
+          >
+            <input
+              className="input"
+              id="password"
+              name="password"
+              onChange={[Function]}
+              type="text"
+              value=""
+            />
+          </div>
+        </div>
+        <div
+          className="field"
+        >
+          <div
+            className="control"
+          >
+            <button
+              className="button is-link"
+              onClick={[Function]}
+            >
+              Sign Up
+            </button>
+          </div>
+        </div>
+        <div>
+          <div>
+            Already have an account? 
+            <Link
+              to="/login"
+            >
+              Login
+            </Link>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+`;

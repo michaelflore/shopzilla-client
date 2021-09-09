@@ -1,0 +1,25 @@
+.btn {
+    color: #fff;
+    padding: 0.4rem;
+    border: none;
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+
+form {
+    label {
+        padding: 0.4rem;
+    }
+
+    input {
+        padding: 0.4rem;
+        outline: none;
+    }
+}
+
+.control {
+    padding: 0 1rem;
+}

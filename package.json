@@ -1,0 +1,48 @@
+{
+  "name": "shopzilla-client",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "http://shopzilla-bucket.s3-website.us-east-2.amazonaws.com",
+  "scripts": {
+    "start": "webpack serve --open --config webpack.dev.js ",
+    "build": "webpack --config webpack.prod.js",
+    "test": "jest --config=jest.config.json --updateSnapshot --coverage",
+    "deploy": "aws s3 sync dist/ s3://shopzilla-bucket"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mdi/js": "^5.9.55",
+    "@mdi/react": "^1.5.0",
+    "bulma": "^0.9.3",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-loader": "^2.1.2",
+    "html-webpack-plugin": "^5.3.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.1.0",
+    "sass": "^1.35.2",
+    "sass-loader": "^12.1.0",
+    "style-loader": "^3.0.0",
+    "webpack": "^5.44.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-manifest-plugin": "^4.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "enzyme-to-json": "^3.6.2",
+    "jest": "^27.0.6",
+    "react-test-renderer": "^17.0.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
